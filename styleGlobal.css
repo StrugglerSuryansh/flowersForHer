@@ -10,20 +10,23 @@ body {
 
 body {
  background-image: url("./angry\ cat.jpg");
- background-size:contain; /* Adjusts the size of the background image */
+ background-size: contain; /* Adjusts the size of the background image */
  background-position: center; /* Centers the background image */
  background-repeat: no-repeat; /* Prevents repeating the background image */
 }
 
 #question-container {
-  margin-top: 20%;
+ margin-top: 20%;
  padding: 20px;
  width: 80%;
- max-width: 500px;
+ max-width: 3150px;
+ max-height: 300px;
  background: #fff5f8;
  border-radius: 15px;
  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
  text-align: center;
+ overflow: hidden;
+ word-wrap: break-word;
 }
 
 #question {
